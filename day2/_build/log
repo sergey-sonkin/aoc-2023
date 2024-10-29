@@ -1,0 +1,16 @@
+# dune exec day2
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /Users/sonkin/.cache/dune/db
+# Workspace root: /Users/sonkin/Documents/Github/ocaml2023/day2
+# Auto-detected concurrency: 8
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /Users/sonkin/.opam/default/bin/ocamlc.opt -config > /var/folders/cy/x0kjc2xn32930t_p6ypymds80000gn/T/dune_c92b25_output

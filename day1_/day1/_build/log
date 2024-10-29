@@ -1,0 +1,6 @@
+# dune init proj day1
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /Users/sonkin/.cache/dune/db
+# Workspace root: /Users/sonkin/Documents/Github/ocaml2023/day1/day1
+# Auto-detected concurrency: 8

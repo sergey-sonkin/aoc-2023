@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/day2b/META"
+  "_build/install/default/lib/day2b/dune-package"
+  "_build/install/default/lib/day2b/opam"
+]
+bin: [
+  "_build/install/default/bin/day2b"
+]

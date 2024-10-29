@@ -1,0 +1,47 @@
+# dune build
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /Users/sonkin/.cache/dune/db
+# Workspace root: /Users/sonkin/Documents/Github/ocaml2023/day10
+# Auto-detected concurrency: 8
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /Users/sonkin/.opam/default/bin/ocamlc.opt -config > /var/folders/cy/x0kjc2xn32930t_p6ypymds80000gn/T/dune_783e58_output
+$ (cd _build/default && /Users/sonkin/.opam/default/bin/ocamlc.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -bin-annot-occurrences -I lib/.day10.objs/byte -I /Users/sonkin/.opam/default/lib/base -I /Users/sonkin/.opam/default/lib/base/base_internalhash_types -I /Users/sonkin/.opam/default/lib/base/md5 -I /Users/sonkin/.opam/default/lib/base/shadow_stdlib -I /Users/sonkin/.opam/default/lib/base_bigstring -I /Users/sonkin/.opam/default/lib/base_quickcheck -I /Users/sonkin/.opam/default/lib/base_quickcheck/ppx_quickcheck/runtime -I /Users/sonkin/.opam/default/lib/bin_prot -I /Users/sonkin/.opam/default/lib/bin_prot/shape -I /Users/sonkin/.opam/default/lib/core -I /Users/sonkin/.opam/default/lib/core/base_for_tests -I /Users/sonkin/.opam/default/lib/core/command -I /Users/sonkin/.opam/default/lib/core/filename_base -I /Users/sonkin/.opam/default/lib/core/heap_block -I /Users/sonkin/.opam/default/lib/core/univ_map -I /Users/sonkin/.opam/default/lib/core/validate -I /Users/sonkin/.opam/default/lib/fieldslib -I /Users/sonkin/.opam/default/lib/gel -I /Users/sonkin/.opam/default/lib/int_repr -I /Users/sonkin/.opam/default/lib/jane-street-headers -I /Users/sonkin/.opam/default/lib/ocaml_intrinsics_kernel -I /Users/sonkin/.opam/default/lib/parsexp -I /Users/sonkin/.opam/default/lib/ppx_assert/runtime-lib -I /Users/sonkin/.opam/default/lib/ppx_bench/runtime-lib -I /Users/sonkin/.opam/default/lib/ppx_compare/runtime-lib -I /Users/sonkin/.opam/default/lib/ppx_diff/diffable -I /Users/sonkin/.opam/default/lib/ppx_diff/diffable_cinaps -I /Users/sonkin/.opam/default/lib/ppx_enumerate/runtime-lib -I /Users/sonkin/.opam/default/lib/ppx_expect/config -I /Users/sonkin/.opam/default/lib/ppx_expect/config_types -I /Users/sonkin/.opam/default/lib/ppx_expect/make_corrected_file -I /Users/sonkin/.opam/default/lib/ppx_expect/runtime -I /Users/sonkin/.opam/default/lib/ppx_hash/runtime-lib -I /Users/sonkin/.opam/default/lib/ppx_here/runtime-lib -I /Users/sonkin/.opam/default/lib/ppx_inline_test/config -I /Users/sonkin/.opam/default/lib/ppx_inline_test/runtime-lib -I /Users/sonkin/.opam/default/lib/ppx_log/syntax -I /Users/sonkin/.opam/default/lib/ppx_log/types -I /Users/sonkin/.opam/default/lib/ppx_module_timer/runtime -I /Users/sonkin/.opam/default/lib/ppx_sexp_conv/runtime-lib -I /Users/sonkin/.opam/default/lib/ppx_stable_witness/runtime -I /Users/sonkin/.opam/default/lib/ppx_stable_witness/stable_witness -I /Users/sonkin/.opam/default/lib/ppx_string/runtime -I /Users/sonkin/.opam/default/lib/ppxlib/print_diff -I /Users/sonkin/.opam/default/lib/sexplib -I /Users/sonkin/.opam/default/lib/sexplib0 -I /Users/sonkin/.opam/default/lib/splittable_random -I /Users/sonkin/.opam/default/lib/stdio -I /Users/sonkin/.opam/default/lib/time_now -I /Users/sonkin/.opam/default/lib/typerep -I /Users/sonkin/.opam/default/lib/variantslib -no-alias-deps -opaque -o lib/.day10.objs/byte/day10.cmo -c -impl lib/day10.ml)
+> File "lib/day10.ml", line 28, characters 24-27:
+> 28 | let find_longest_cycle (dat : string array) (start_location : char) (start_shape : char) =
+>                              ^^^
+> Error (warning 27 [unused-var-strict]): unused variable dat.
+>
+> File "lib/day10.ml", line 28, characters 45-59:
+> 28 | let find_longest_cycle (dat : string array) (start_location : char) (start_shape : char) =
+>                                                   ^^^^^^^^^^^^^^
+> Error (warning 27 [unused-var-strict]): unused variable start_location.
+>
+> File "lib/day10.ml", line 28, characters 69-80:
+> 28 | let find_longest_cycle (dat : string array) (start_location : char) (start_shape : char) =
+>                                                                           ^^^^^^^^^^^
+> Error (warning 27 [unused-var-strict]): unused variable start_shape.
+>
+> File "lib/day10.ml", line 40, characters 6-19:
+> 40 |   let starting_char = find_starting_char contents in
+>            ^^^^^^^^^^^^^
+> Error (warning 26 [unused-var]): unused variable starting_char.
+>
+> File "lib/day10.ml", line 41, characters 6-12:
+> 41 |   let length = get_length contents in
+>            ^^^^^^
+> Error (warning 26 [unused-var]): unused variable length.
+>
+> File "lib/day10.ml", line 42, characters 6-9:
+> 42 |   let arr = Array.of_list contents in
+>            ^^^
+> Error (warning 26 [unused-var]): unused variable arr.
+[2]
